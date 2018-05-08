@@ -7,4 +7,5 @@ urlpatterns = [
 
     #localhost:8000/post/1
     url(r'^post/(?P<pk>\d+)/$', views.post_detail, name='post_detail'),
+    url(r'^post/new/$', views.post_new, name='post_new'),
 ]
